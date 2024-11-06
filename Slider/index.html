@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exibição de Slides</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="slide-container">
+    <div class="slide" id="slide1">
+      <h1>Slide 1</h1>
+      <p>Bem-vindo à nossa apresentação! Aqui está o primeiro slide.</p>
+    </div>
+    <div class="slide" id="slide2">
+      <h1>Slide 2</h1>
+      <p>Este é o segundo slide. Continue explorando!</p>
+    </div>
+    <div class="slide" id="slide3">
+      <h1>Slide 3</h1>
+      <p>Finalmente, chegamos ao terceiro slide. Obrigado por assistir!</p>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <button id="prevBtn" onclick="changeSlide(-1)">Anterior</button>
+    <button id="nextBtn" onclick="changeSlide(1)">Próximo</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
